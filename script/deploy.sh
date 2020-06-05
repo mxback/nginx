@@ -3,7 +3,7 @@
 #create k8s-nginx
 echo "deploying..... SpaceName:${SpaceName},ContainerKey:${ContainerKey},ContainerValue:${ContainerValue},ImageName:${ImageName},Image:${Image},Name:${Name},ContainerPort:${ContainerPort},ContainerPortName:${ContainerPortName},PodPort:${PodPort}"
 rm -f deploy.yml
-cp -a ${WORKSPACE}/yaml/deploy.yml .
+cp -a ${WORKSPACE}/yaml/deploy.yml ./deploy.yaml
 ls -al || echo "copy success"
 sed -i "s,{{SpaceName}},${SpaceName},g" ./deploy.yaml
 sed -i "s,{{ContainerKey}},${ContainerKey},g" ./deploy.yaml
