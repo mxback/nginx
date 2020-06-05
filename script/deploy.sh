@@ -10,7 +10,7 @@ sed -i "s,{{ContainerKey}},${ContainerKey},g" ./deploy.yaml
 sed -i "s,{{ContainerValue}},${ContainerValue},g" ./deploy.yaml
 sed -i "s,{{ImageName}},${ImageName},g" ./deploy.yaml
 sed -i "s,{{Image}},${Image},g" ./deploy.yaml
-sed -i "s,{{ContainerPort}},${ContainerPortName},g" ./deploy.yaml
+sed -i "s,{{ContainerPort}},${ContainerPort},g" ./deploy.yaml
 sed -i "s,{{ContainerPortName}},${ContainerPortName},g" ./deploy.yaml
 sed -i "s,{{PodPort}},${PodPort},g" ./deploy.yaml
 sed -i "s,{{Name}},${Name},g" ./deploy.yaml
