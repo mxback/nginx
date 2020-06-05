@@ -15,5 +15,5 @@ sed -i "s,{{ContainerPortName}},${ContainerPortName},g" deploy.yaml
 sed -i "s,{{PodPort}},${PodPort},g" deploy.yaml
 sed -i "s,{{Name}},${Name},g" deploy.yaml
 echo "read success"
-kubectl apply -f web.yaml
+kubectl apply -f deploy.yaml
 echo "apply ok"
