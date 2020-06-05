@@ -4,7 +4,7 @@
 echo "deploying..... SpaceName:${SpaceName},ContainerKey:${ContainerKey},ContainerValue:${ContainerValue},ImageName:${ImageName},Image:${Image},Name:${Name},ContainerPort:${ContainerPort},ContainerPortName:${ContainerPortName},PodPort:${PodPort}"
 rm -f deploy.yml
 cp -a ${WORKSPACE}/yaml/deploy.yml .
-echo "copy success"
+ls -al || echo "copy success"
 sed -i "s,{{SpaceName}},${SpaceName},g" ./deploy.yaml
 sed -i "s,{{ContainerKey}},${ContainerKey},g" ./deploy.yaml
 sed -i "s,{{ContainerValue}},${ContainerValue},g" ./deploy.yaml
