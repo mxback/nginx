@@ -7,7 +7,7 @@ pipeline {
 ls -a
 pwd
 cat /etc/issue
-apk policy kubectl'''
+apk stats'''
       }
     }
 
