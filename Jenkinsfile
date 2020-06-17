@@ -19,7 +19,7 @@ cat /etc/issue
 #apk add docker
 #docker --version
 #docker build ${WORKSPACE}/
-rc-server docker start'''
+rc-service docker start'''
       }
     }
 
