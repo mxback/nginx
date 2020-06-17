@@ -6,7 +6,8 @@ pipeline {
         sh '''uname -a
 ls -a
 pwd
-cat /etc/issue'''
+cat /etc/issue
+apk search kubectl'''
       }
     }
 
