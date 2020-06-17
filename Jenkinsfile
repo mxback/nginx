@@ -5,7 +5,8 @@ pipeline {
       steps {
         sh '''uname -a
 ls -a
-pwd'''
+pwd
+cat /etc/issue'''
       }
     }
 
