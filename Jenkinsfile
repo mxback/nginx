@@ -17,7 +17,8 @@ cat /etc/issue
 #echo ${WORKSPACE}
 #apk info docker
 #apk add docker
-docker --version'''
+#docker --version
+docker build .'''
       }
     }
 
