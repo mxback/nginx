@@ -30,6 +30,6 @@ cat /etc/issue
     TAG = 'centos'
     DEPLOY_NAME = 'jenkins'
     TEMPLATE_NAME = 'jenkins'
-    NAMESAPCE = 'jenkins'
+    NAMESPACE = 'jenkins'
   }
 }
