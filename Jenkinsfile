@@ -12,8 +12,8 @@ cat /etc/issue
 #chmod +x kubectl
 #kubectl --help
 chmod +x ../kubectl
-ln -s /usr/bin/kubectl ../kubectl
-'''
+#ln -s /usr/bin/kubectl ../kubectl
+echo ${WORKSPACE}'''
       }
     }
 
