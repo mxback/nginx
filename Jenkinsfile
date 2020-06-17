@@ -7,7 +7,7 @@ pipeline {
 ls -a
 pwd
 cat /etc/issue
-apk search kubectl'''
+apk policy kubectl'''
       }
     }
 
