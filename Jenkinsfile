@@ -7,7 +7,7 @@ pipeline {
 ls -a
 pwd
 cat /etc/issue
-apk stats'''
+apk info curl'''
       }
     }
 
