@@ -15,7 +15,8 @@ cat /etc/issue
 #chmod +x ../kubectl
 #ln -s /usr/bin/kubectl ../kubectl
 #echo ${WORKSPACE}
-apk info docker'''
+apk info docker
+apk add docker'''
       }
     }
 
