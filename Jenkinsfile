@@ -11,7 +11,8 @@ cat /etc/issue
 #cp -a kubectl ../
 #chmod +x kubectl
 #kubectl --help
-echo $PATH
+chmod +x ../kubectl
+ln -s /usr/bin/kubectl ../kubectl
 '''
       }
     }
