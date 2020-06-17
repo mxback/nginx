@@ -4,7 +4,8 @@ pipeline {
     stage('get') {
       steps {
         sh '''uname -a
-ls -a'''
+ls -a
+pwd'''
       }
     }
 
