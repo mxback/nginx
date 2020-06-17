@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('get') {
       steps {
-        sh 'uname -a'
+        sh '''uname -a
+ls -a'''
       }
     }
 
