@@ -20,9 +20,16 @@ cat /etc/issue
 #docker --version
 #docker build ${WORKSPACE}/
 #rc-service docker start
-docker images'''
+#docker images'''
       }
     }
 
+  }
+  environment {
+    IMAGE = 'mxback/jenkins'
+    TAG = 'centos'
+    DEPLOY_NAME = 'jenkins'
+    TEMPLATE_NAME = 'jenkins'
+    NAMESAPCE = 'jenkins'
   }
 }
