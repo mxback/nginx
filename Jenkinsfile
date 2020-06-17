@@ -18,8 +18,8 @@ cat /etc/issue
 #apk info docker
 #apk add docker
 #docker --version
-#docker build ${WORKSPACE}/
-rc-service docker start'''
+docker build ${WORKSPACE}/
+#rc-service docker start'''
       }
     }
 
